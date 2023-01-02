@@ -1,7 +1,7 @@
 {
   "name": "@docu-vault/api-handler",
   "version": "1.0.0",
-  "description": "generic API hanlder which does not concerns about what API calls return",
+  "description": "generic API hanlder",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
