@@ -1,1 +1,1 @@
-# api-handler
+# generic-api-handler
