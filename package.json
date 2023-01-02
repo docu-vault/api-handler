@@ -10,9 +10,8 @@
   "scripts": {
     "tsc": "tsc -p tsconfig.json",
     "prepublishOnly": "npm run tsc",
-    "build-dev": "npm run prepare && npm install && npm run tsc",
-    "build-prod": "npm run prepare && npm install --production && npm run tsc",
-    "int-test-groups": "mocha -r ts-node/register -r source-map-support/register test/test-api-handler.ts -timeout 10000"
+    "build-dev": "npm install && npm run tsc",
+    "build-prod": "npm install --production && npm run tsc"
   },
   "repository": {
     "type": "git",
